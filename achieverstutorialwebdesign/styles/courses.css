@@ -61,7 +61,7 @@
     margin:8px;
 /*    background-color: #4793AF;*/
     background-color: #B7E0FF;
-    box-shadow: 1px 1px 2px 0.4px black;
+    box-shadow: 0.3px 0.3px 1px 0.3px black;
    transition: all 0.2s ease-in-out;
 }
 
@@ -118,6 +118,12 @@
   padding: 4px;
 }
 
+.programs-checkbox-icons {
+  width:20px;
+  height: 20px;
+  margin:4px;
+}
+
 .programs-container > ul > li {
 	margin:12px;
 	list-style-type: none;
@@ -125,11 +131,13 @@
 	padding: 8px;
 	border-radius: 4px;
 	color:#1E3E62;
-    font-family: "Poppins", sans-serif;
-   font-weight: 400;
-   font-style: normal;
-   font-size: 1.5rem;
-   transition: all 0.2s ease-in-out;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in-out;
+  display: flex;
+  align-items: center;
 }
 
 .programs-container > ul > li:hover {

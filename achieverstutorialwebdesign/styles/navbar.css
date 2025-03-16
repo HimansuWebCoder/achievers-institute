@@ -74,7 +74,7 @@
    font-weight: 800;
    font-style: normal;
    text-shadow: 1px 1px 2px black;
-  box-shadow: 1px 1px 1px 0.4px black;
+  box-shadow: 0.4px 0.4px 0.4px 0.4px black;
 }
 
 #cta-btn > a {

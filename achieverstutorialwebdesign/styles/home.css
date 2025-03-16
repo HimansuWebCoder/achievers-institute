@@ -76,6 +76,11 @@
   box-shadow: 1px 1px 1px 0.4px black;
 }
 
+.home-content-container > button > a {
+  color:white;
+  text-decoration: none;
+}
+
 .home-content-container > p {
     font-size: 1.5rem;
 	text-align: center;

@@ -62,6 +62,7 @@
 /*    background-color: #4793AF;*/
     background-color: #B7E0FF;
     box-shadow: 1px 1px 2px 0.4px black;
+   transition: all 0.2s ease-in-out;
 }
 
 .course-subject-container > h3 {
@@ -70,8 +71,13 @@
     padding: 2px;
 	background-color: #F5F0CD;
     font-family: "Poppins", sans-serif;
-   font-weight: 300;
+   font-weight: 400;
    font-style: normal;
+}
+
+.course-subject-container:hover {
+/*   transform: scale(0.9);*/
+  transform: scale(95%) translateY(10px);
 }
 
 .course-icons {
@@ -120,8 +126,14 @@
 	border-radius: 4px;
 	color:#1E3E62;
     font-family: "Poppins", sans-serif;
-   font-weight: 300;
+   font-weight: 400;
    font-style: normal;
+   font-size: 1.5rem;
+   transition: all 0.2s ease-in-out;
+}
+
+.programs-container > ul > li:hover {
+   transform: translateY(-10px);
 }
 
 
@@ -131,4 +143,8 @@
 	#course-section > h1 {
 		font-size: 1.5rem;
 	}
+
+  .programs-container > ul > li {
+    font-size: 1.2rem;
+  }
 }

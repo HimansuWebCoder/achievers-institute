@@ -77,6 +77,11 @@
   box-shadow: 1px 1px 1px 0.4px black;
 }
 
+#cta-btn > a {
+	color:white;
+  text-decoration: none;
+}
+
 
 @media (max-width:412px) {
 	.navitem-container {
@@ -99,5 +104,17 @@
 
 	.navitem-container {
 		display: none;
+	}
+}
+
+@media (max-width:412px) {
+	#cta-btn {
+    max-width: 150px;
+    height: auto;
+    padding:8px;
+	}
+
+	#cta-btn > a {
+		font-size: 1rem;
 	}
 }

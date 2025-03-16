@@ -1,0 +1,119 @@
+#course-section {
+  max-width:100%;
+  height: auto;
+  padding:4px;
+/*  border:1px solid blue;*/
+  text-align: center;
+  margin-top: 20px;
+  background-color: #1D6BE0;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#course-section > h1 {
+	font-size: 2.5rem;
+	color:white;
+}
+
+.course-container {
+  width:100%;
+  height: auto;
+/*  border:1px solid black;*/
+}
+
+.course-intro {
+  max-width:400px;
+  height: auto;
+  background-color: #FEFF9F;
+  padding: 8px;
+  margin-bottom: 12px;
+  font-size: 1.4rem;
+  color:#004182;
+}
+
+.course-content-container {
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.course-sub-container {
+	width:100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.course-subject-container {
+    width:150px;
+    height: 180px;
+    padding: 8px;
+    text-align: center;
+    margin:8px;
+/*    background-color: #4793AF;*/
+    background-color: #B7E0FF;
+    box-shadow: 1px 1px 2px 0.4px black;
+}
+
+.course-subject-container > h3 {
+	margin-top: 16px;
+/*	color:white;*/
+    padding: 2px;
+	background-color: #F5F0CD;
+}
+
+.course-icons {
+	width:100px;
+	height:100px;
+}
+
+.programs-intro {
+   max-width:400px;
+   height: auto;
+   background-color: #FEFF9F;
+  padding: 8px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  text-align: center;
+  color:#004182;
+  font-size: 1.4rem;
+}
+
+.programs-content-container {
+	width:100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.programs-container {
+  width:100%;
+  height: auto;
+  background-color: lightcoral;
+  background-color: #61A3BA;
+  display: flex;
+  justify-content: center;
+  padding: 4px;
+}
+
+.programs-container > ul > li {
+	margin:12px;
+	list-style-type: none;
+	background-color: #FFFBE6;
+	padding: 8px;
+	border-radius: 4px;
+	color:#1E3E62;
+}
+
+
+
+@media (max-width:412px) {
+
+	#course-section > h1 {
+		font-size: 1.5rem;
+	}
+}

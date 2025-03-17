@@ -71,7 +71,8 @@
 }
 
 .footer-links-container > h5 {
-	font-family: "Open Sans", sans-serif;
+	font-family: "Montserrat", sans-serif;
+    font-weight: 600;
 }
 	
 .footer-sub-container > h5 {
@@ -157,7 +158,8 @@
 #quick-contact > h5 {
 /*	margin:auto;*/
 	margin-bottom: 5px;
-font-family: "Open Sans", sans-serif;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
 }
 
 .icon-container {
@@ -168,10 +170,24 @@ font-family: "Open Sans", sans-serif;
  align-items: center;
 /* border: 1px solid white;*/
 /* margin:4px;*/
-font-family: "Open Sans", sans-serif;
-	font-size: 1.2rem;
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
  word-break: break-word;
 }
+
+.quick-links {
+   font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/*.icon-container > span {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}*/
 
 .icon {
 	max-width:30px;
@@ -207,18 +223,7 @@ font-family: "Open Sans", sans-serif;
 
 
 
-@media (max-width:518px) {
-	.nav-box-container {
-		display: none;
-	}
-
-	.menus {
-		display: block;
-	}
-}
-
-
-@media (max-width:400px) {
+@media (max-width:412px) {
 	.footer-second-container > p  {
 		margin-top: 10px;
 		font-size: 0.8rem;
@@ -252,6 +257,10 @@ font-family: "Open Sans", sans-serif;
 		margin-top: 10px;
 	}
 
+	.quick-contact-contents > .icon-container {
+		font-size: 1rem;
+	}
+
 	.follow-box-container {
 		margin-top: 10px;
 	}
@@ -260,5 +269,11 @@ font-family: "Open Sans", sans-serif;
 			width: 50px;
 			height: 50px;
 		}
+
+		#footer-logo {
+			width:100px;
+			height: 100px;
+		}
+
 
 }

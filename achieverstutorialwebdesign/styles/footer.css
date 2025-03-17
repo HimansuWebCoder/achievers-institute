@@ -73,6 +73,7 @@
 .footer-links-container > h5 {
 	font-family: "Montserrat", sans-serif;
     font-weight: 600;
+    color:#FFF4EA;
 }
 	
 .footer-sub-container > h5 {
@@ -90,7 +91,7 @@
 
 .footer-nav-menu-container > li > a {
 	text-decoration: none;
-	border-bottom: 1px solid white;
+/*	border-bottom: 1px solid white;*/
 	color:white;
 	font-family: "Open Sans", sans-serif;
 	font-size: 1.2rem;
@@ -119,6 +120,7 @@
 
 .follow-box-container  > h5 {
 	font-family: "Open Sans", sans-serif;
+	color:#FFF4EA
 /*	font-size: 1rem;*/
 /*font-family: "Gill Sans", sans-serif;;*/
 }
@@ -160,6 +162,7 @@
 	margin-bottom: 5px;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
+    color:#FFF4EA;
 }
 
 .icon-container {

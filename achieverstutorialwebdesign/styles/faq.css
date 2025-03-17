@@ -14,6 +14,8 @@
    font-family: "Montserrat", sans-serif;
    font-weight: 600;
    font-style: normal;
+   margin-top: 4px;
+   margin-bottom: 4px;
 }
 
 #faq-section-container {
@@ -44,7 +46,7 @@
    font-family: "Poppins", sans-serif;
    font-weight: 400;
    font-style: normal;
-   font-size: 1.5rem;
+   font-size: 1.3rem;
    color:#3B6790;
   color:#2C4E80;
 }

@@ -29,14 +29,14 @@
        	 <image id="logo" src="images/logo.png" />
          </div>
      	 <ul class="navitem-container">
-     	 	 <li>Home</li>
-     	 	 <li>About Us</li>
-     	 	 <li>Courses/Programs</li>
-     	 	 <li>Gallery/Videos</li>
-     	 	 <li>Admissions</li>
-     	 	 <li>Testimonials</li>
-     	 	 <li>FAQ</li>
-     	 	 <li>Contact Us</li>
+     	 	 <li><a href="#home">Home</a></li>
+     	 	 <li><a href="#about">About Us</a></li>
+     	 	 <li><a href="#courses">Courses</a></li>
+     	 	 <li><a href="#gallery">Gallery</a></li>
+     	 	 <li><a href="#admissions">Admissions</a></li>
+     	 	 <li><a href="#testimonials">Testimonials</a></li>
+     	 	 <li><a href="#faq">FAQ</a></li>
+     	 	 <li><a href="#contact">Contact Us</a></li>
      	 </ul>
      	 <button id="cta-btn"><a href="tel:+91-9348133727">Join Us Today</a></button>
          <div id="menu-box-container">
@@ -44,12 +44,31 @@
              <div></div>
              <div></div>
          </div>
+
+      <div id="menu-items">
+        <div class="close-menu-container">
+            <img loading="lazy" class="menu-logo" src="./images/logo.png" alt="Logo" />
+            <div id="close-menu"><img loading="lazy" id="close-menu-icon" src="./images/cross.png" /></div>
+        </div>
+        <div class="menu-lists-container">
+          <ul class="nav-menus-container">
+             <li><a href="#home">Home</a></li>
+             <li><a href="#about">About Us</a></li>
+             <li><a href="#courses">Courses</a></li>
+             <li><a href="#gallery">Gallery</a></li>
+             <li><a href="#admissions">Admissions</a></li>
+             <li><a href="#testimonials">Testimonials</a></li>
+             <li><a href="#faq">FAQ</a></li>
+             <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
      </nav>
 	<!-- Navbar Section End -->
 	<!-- Main Section Start -->
      <main id="main-section">
      	<!-- Home Section Start -->
-       <div class="home-container">
+       <div id="home" class="home-container">
      	   <div class="home-content-container">
      	   	   <h1>Achievers Institute</h1>
      	   	   <h3>Excellence In Education From <span class="higlighted-text">Nursery</span> to <span class="higlighted-text">Class-XII</span></h3>
@@ -64,7 +83,7 @@
      	
      	<!-- About Section Start -->
 	     	<div id="about-section">
-	     		<h1>About Us</h1>
+	     		<h1 id="about">About Us</h1>
 	     	</div>
                <div class="about-content-container">
                	  <div class="about-content-sub-containers first-about-sub-container">
@@ -141,7 +160,7 @@
      	<!-- About Section End -->
      	<!-- Course/Programs Section Start -->
                 <div id="course-section">
-                	<h1>Our Courses & Programs</h1>
+                	<h1 id="courses">Our Courses & Programs</h1>
                 </div>
                 <div class="course-container">
                 	<div class="course-intro">
@@ -195,7 +214,7 @@
      	<!-- Course/Programs Section End -->
      	<!-- Gallery/Videos Section Start -->
               <div id="galleryvideos-intro">
-              	 <h1>Gallery & Videos: Student Achievements & Events</h1>
+              	 <h1 id="gallery">Gallery & Videos: Student Achievements & Events</h1>
               </div>
               <div class="gallery-video-section-container">
               	 <div class="galleryvideo-container">
@@ -231,7 +250,7 @@
      	<!-- Gallery/Videos Section End -->
      	<!-- Admissions Section Start -->
                <div id="admission-section">
-               	  <h1>Admissions</h1>
+               	  <h1 id="admissions">Admissions</h1>
                </div>
                <div class="admission-section-container">
                	  <h1>Admissions Open – Join Achievers Institute Today!</h1>
@@ -260,7 +279,7 @@
      	<!-- Admissions Section End -->
      	<!-- Testimonials Section Start -->
                <div id="testimonial-section">
-               	   <h1>What Our Students Say</h1>
+               	   <h1 id="testimonials">What Our Students Say</h1>
                </div>
                <div class="testimonial-container">
                	    <div class="feedback-container">
@@ -293,7 +312,7 @@
      	<!-- Testimonials Section End -->
         <!-- FAQ Section Start -->
                <div id="faq-section">
-               	  <h1>FAQ's</h1>
+               	  <h1 id="faq">FAQ's</h1>
                </div>
                <div id="faq-section-container">
                	
@@ -301,7 +320,7 @@
      	<!-- FAQ Section End -->
      	<!-- Contact Section Start -->
                <div id="contact-section">
-               	  <h1>Contact Us</h1>
+               	  <h1 id="contact">Contact Us</h1>
                </div>
                <div class="contact-section-container">
                	    <div class="contact-details">
@@ -341,7 +360,11 @@
                 <ul class="footer-nav-menu-container">
                     <li><a class="quick-links" href="#home">Home</a></li>
                     <li><a class="quick-links" href="#about">About</a></li>
-                    <li><a class="quick-links" href="#services">Services</a></li>
+                    <li><a class="quick-links" href="#courses">Courses</a></li>
+                    <li><a class="quick-links" href="#gallery">Gallery</a></li>
+                    <li><a class="quick-links" href="#admissions">Admissions</a></li>
+                    <li><a class="quick-links" href="#testimonials">Testimonials</a></li>
+                    <li><a class="quick-links" href="#faq">FAQ</a></li>
                     <li><a class="quick-links" href="#contact">Contact</a></li>
                 </ul>
             </div>
@@ -380,5 +403,6 @@
       </div>
    </footer>
    <!-- Footer Section End -->
+   <script src="js/index.js"></script>
 </body>
 </html>

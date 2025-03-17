@@ -1,4 +1,10 @@
 
+.logo {
+  max-width:80px;
+  height: 80px;
+  margin-right: 20px;
+}
+
 /*footer-container styling*/
 #footer-container {
  width:100%;
@@ -196,4 +202,63 @@ font-family: "Open Sans", sans-serif;
 	font-style: italic;
 	color:#FBFBFB;
 	font-family: 'Open Sans',sans-serif;
+}
+
+
+
+
+@media (max-width:518px) {
+	.nav-box-container {
+		display: none;
+	}
+
+	.menus {
+		display: block;
+	}
+}
+
+
+@media (max-width:400px) {
+	.footer-second-container > p  {
+		margin-top: 10px;
+		font-size: 0.8rem;
+	}
+
+	.follow-box-container  > h5 {
+		font-size: 1rem;
+	}
+
+	.footer-links-container {
+		align-items: center;
+	}
+
+	#quick-contact {
+		align-items: center;
+	}
+
+	.footer-links-container > h5 {
+		font-size: 1rem;
+	}
+
+	.footer-nav-menu-container > li > a {
+		font-size: 0.9rem;
+	}
+
+	#quick-contact > h5 {
+		font-size: 1rem;
+	}
+
+	#quick-contact {
+		margin-top: 10px;
+	}
+
+	.follow-box-container {
+		margin-top: 10px;
+	}
+
+		#whatsapp-icon-container {
+			width: 50px;
+			height: 50px;
+		}
+
 }

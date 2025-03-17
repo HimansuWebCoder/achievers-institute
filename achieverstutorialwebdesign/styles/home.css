@@ -21,8 +21,9 @@
 
 .higlighted-text {
   background-color: #FDFFC2;
-  font-weight: 500;
-  font-family: Montserrat;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color:#3B6790;
 }
 
 .home-logo-container {

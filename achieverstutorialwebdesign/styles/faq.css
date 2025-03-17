@@ -24,14 +24,29 @@
   margin:8px;
 }
 
-.faq-item {
-/*  color:#FE4F2D;*/
-   color:#3B6790;
-   font-family: "Montserrat", sans-serif;
+/*.faq-item {
+    font-family: "Poppins", sans-serif;
+   font-weight: 300;
    font-style: normal;
-   font-weight: 600;
    font-size: 1.5rem;
+}*/
 
+.faq-item > .faq-question {
+    font-family: "Poppins", sans-serif;
+   font-weight: 500;
+   font-style: normal;
+   font-size: 1.5rem;
+   color:#4793AF;
+/*    color:#FE4F2D;*/
+}
+
+.faq-item > .faq-answer {
+   font-family: "Poppins", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 1.5rem;
+   color:#3B6790;
+  color:#2C4E80;
 }
 
 .faq-container {
@@ -72,3 +87,4 @@
                       font-size: 14px;
                   }
               }
+

@@ -37,6 +37,19 @@
    padding: 8px;
 }
 
+.feedback-intro-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.feedback-intro-content > h2 {
+  font-size: 0.9rem;
+  font-family: "Poppins";
+  font-weight: 300;
+}
+
 .feedback-container > div {
    width:600px;
    height: auto;

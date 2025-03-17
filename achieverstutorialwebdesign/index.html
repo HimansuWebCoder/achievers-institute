@@ -16,9 +16,11 @@
        <link rel="stylesheet" type="text/css" href="styles/home.css">
        <link rel="stylesheet" type="text/css" href="styles/main.css">
        <link rel="stylesheet" type="text/css" href="styles/testimonial.css">
+       <link rel="stylesheet" type="text/css" href="styles/ctacontact.css">
        <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
 	<!-- Navbar Section Start -->
@@ -322,18 +324,64 @@
                </div>
      	<!-- Contact Section End -->
 
-       <button>
-              WhatsAPP
-       </button>
+       <div id="whatsapp-icon-container">
+        <a class="call-cta" href="https://wa.me/9861720363" ><img loading="lazy" id="whatsapp-icon" src="./images/whatsapp.png" alt="whatsapp"/></a>
+      </div>
        <button>
               Call
        </button>
      </main>
 	<!-- Main Section End -->
-	<!-- Footer Section Start-->
-     <footer id="footer-section">
-     	
-     </footer>
-	<!-- Footer Section End-->
+	<!-- Footer Section Start -->
+   <footer id="footer-container">
+      <div class="footer-first-container">
+         <div class="footer-logo-container">
+            <img  id="footer-logo" src="./images/logo.png" alt="Logo" />
+         </div>
+         <div class="footer-content-container">
+            <div class="footer-links-container">
+                <h5>Quick Links</h5>
+                <ul class="footer-nav-menu-container">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div id="quick-contact">
+                <h5>Get In Touch</h5>
+                <div class="quick-contact-contents">
+                <div class="icon-container">
+                    <img loading="lazy" class="icon" src="./images/call.svg" alt="call" />
+                    <span>+91-9348133727</span>
+                </div>
+                <div class="icon-container">
+                    <img loading="lazy" class="icon" src="./images/gmail.svg" alt="gmail" />
+                    <span>achieversinstitute@gmail.com</span>
+                </div>
+                <div class="icon-container">
+                    <img loading="lazy" class="icon" src="./images/location.svg" alt="location" />
+                    <span>Ashirvad palace, Orakal, Kuha, Bhubaneswar, Odisha 751002</span>
+                </div>
+              </div>
+            </div>
+            <div class="follow-box-container">
+                <h5>Follow Me On</h5>
+                <div class="social-links-container">
+                <a class="social-links">
+                    <img loading="lazy" class="social-img" src="./images/instagram.png" alt="Instagram"/>
+                </a>
+                <a class="social-links" href="">
+                  <img loading="lazy" class="social-img" src="./images/linkedin.png" alt="Linkedin" />
+                </a>
+                </div>
+            </div>
+         </div>
+      </div>
+      <div class="footer-second-container">
+          <p>Copyright <span id="copyright-sign">@</span> 2025 <b>Achievers Institute</b> | Designed & Developed by <a id="developedby" href="https://himansuwebsolutions.vercel.app">Himansuwebsolutions</a></p>
+      </div>
+   </footer>
+   <!-- Footer Section End -->
 </body>
 </html>

@@ -11,3 +11,7 @@ html, body {
   background-color: #F9F9F9;
 }
 
+.box {
+    opacity: 0;  /* Initially hidden */
+    transform: translateY(50px); /* Start slightly lower */
+}

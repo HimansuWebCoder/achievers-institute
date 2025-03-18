@@ -25,41 +25,68 @@ document.querySelectorAll('.faq-question').forEach(item => {
 
 
 // Images Slider
-const nextEl = document.querySelector(".next");
+// const nextEl = document.querySelector(".next");
 
-const prevEl = document.querySelector(".prev");
+// const prevEl = document.querySelector(".prev");
 
-const imgsEl = document.querySelectorAll(".image-slides");
+// const imgsEl = document.querySelectorAll(".image-slides");
 
-const imageContainerEl = document.querySelector(".image-container");
+// const imageContainerEl = document.querySelector(".image-container");
 
-let currentImg = 1;
+// let currentImg = 1;
 
-let timeout;
+// let timeout;
 
-nextEl.addEventListener("click", () => {
-  currentImg++;
-  clearTimeout(timeout);
-  updateImg();
-});
+// nextEl.addEventListener("click", () => {
+//   currentImg++;
+//   clearTimeout(timeout);
+//   updateImg();
+// });
 
-prevEl.addEventListener("click", () => {
-  currentImg--;
-  clearTimeout(timeout);
-  updateImg();
-});
+// prevEl.addEventListener("click", () => {
+//   currentImg--;
+//   clearTimeout(timeout);
+//   updateImg();
+// });
 
-updateImg();
+// updateImg();
 
-function updateImg() {
-  if (currentImg > imgsEl.length) {
-    currentImg = 1;
-  } else if (currentImg < 1) {
-    currentImg = imgsEl.length;
-  }
-  imageContainerEl.style.transform = `translateX(-${(currentImg - 1) * 500}px)`;
-  timeout = setTimeout(() => {
-    currentImg++;
-    updateImg();
-  }, 3000);
-}
+// function updateImg() {
+//   if (currentImg > imgsEl.length) {
+//     currentImg = 1;
+//   } else if (currentImg < 1) {
+//     currentImg = imgsEl.length;
+//   }
+//   imageContainerEl.style.transform = `translateX(-${(currentImg - 1) * 400}px)`;
+//   timeout = setTimeout(() => {
+//     currentImg++;
+//     updateImg();
+//   }, 3000);
+// }
+
+       let imgSlideContainer = document.querySelector(".image-container");
+        let img = document.querySelectorAll(".image-slides");
+        let btn = document.querySelector("button");
+        const nextBtn = document.querySelector(".next");
+        const prevBtn = document.querySelector(".prev");
+
+        let i = 0;
+
+        nextBtn.addEventListener("click", () => {
+            if (i < img.length - 1) {
+                i++;
+            } else {
+              i = 0;
+            }
+            imgSlideContainer.style.transform = `translateX(${-i * 300}px)`;
+        });
+
+
+        prevBtn.addEventListener("click", () => {
+            if (i > 0) {
+                i--;
+            } else {
+              i = img.length-1;
+            }
+            imgSlideContainer.style.transform = `translateX(${-i * 300}px)`;
+        });

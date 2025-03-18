@@ -90,3 +90,13 @@ document.querySelectorAll('.faq-question').forEach(item => {
             }
             imgSlideContainer.style.transform = `translateX(${-i * 300}px)`;
         });
+
+
+          setInterval(() => {
+              if (i < img.length - 1) {
+                i++;
+            } else {
+              i = 0;
+            }
+            imgSlideContainer.style.transform = `translateX(${-i * 300}px)`;
+          }, 3000)

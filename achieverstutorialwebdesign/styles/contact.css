@@ -5,7 +5,7 @@
 /*  border:1px solid blue;*/
   text-align: center;
   margin-top: 20px;
-  background-color: #1D6BE0;
+  background:linear-gradient(45deg, #00235B, #005792, #085F63);
 }
 
 #contact-section > h1 {
@@ -44,6 +44,7 @@
    font-weight: 400;
    font-style: normal;
    font-size: 1.2rem;
+   color:#3C486B;
 }
 
 
@@ -58,6 +59,7 @@
 
 #phone {
   text-decoration: none;
+  color:#3C486B;
 }
 
 #location-container {

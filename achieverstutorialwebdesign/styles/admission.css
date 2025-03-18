@@ -6,6 +6,7 @@
   text-align: center;
   margin-top: 20px;
   background-color: #1D6BE0;
+   background:linear-gradient(45deg, #00235B, #005792, #085F63);
 }
 
 
@@ -35,6 +36,7 @@
    color:#3B6790;
    color:#FE4F2D;
    color:#FE4F2D;
+   color:#FD5959;
 /*   color:#3B6790;*/
    font-family: "Montserrat", sans-serif;
    font-style: normal;
@@ -47,7 +49,7 @@
   color:#1E3E62;
   color:#A94A4A;
   font-family: "Poppins", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-style: normal;
   font-size: 1.5rem;
    text-align: center;

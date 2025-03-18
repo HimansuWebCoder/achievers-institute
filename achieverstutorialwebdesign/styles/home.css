@@ -5,6 +5,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
+  margin-top: 80px;
 }
 
 .home-content-container {
@@ -46,6 +47,21 @@
    font-weight: 800;
 /*   font-style: italic;*/
 /*   text-shadow: 1px 1px 3px #11144C;*/
+}
+
+#fname {
+   color:transparent;
+   background: linear-gradient(45deg, #D04848, #0079FF);
+ -webkit-background-clip: text;
+ background-clip:text;
+
+}
+
+#lname {
+   color:transparent;
+   background: linear-gradient(45deg, #0079FF, #D04848);
+ -webkit-background-clip: text;
+ background-clip:text;
 }
 
 .home-content-container > h3 {

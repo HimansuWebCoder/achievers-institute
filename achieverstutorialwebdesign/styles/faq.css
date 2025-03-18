@@ -6,6 +6,7 @@
   text-align: center;
   margin-top: 20px;
   background-color: #1D6BE0;
+   background:linear-gradient(45deg, #00235B, #005792, #085F63);
 }
 
 #faq-section > h1 {

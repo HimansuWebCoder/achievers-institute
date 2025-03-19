@@ -4,7 +4,8 @@
           padding:4px;
         /*  border:1px solid blue;*/
           text-align: center;
-          margin-top: 20px;
+          margin-top: 40px;
+          margin-bottom: 40px;
           background-color: #1D6BE0;
            background:linear-gradient(45deg, #00235B, #005792, #085F63);
         }
@@ -71,7 +72,13 @@
             font-family: "Poppins";
             font-weight: 500;
             color:#CDFAD5;
+            margin-top: 12px;
         }
+
+       .faq-arrow-icon {
+        width:15px;
+        height: 15px;
+       }
 
         .feedback-sub-container > div > p {
           color:#FDFFC2;
@@ -90,7 +97,7 @@
 
 
 
-@media (max-width:412px) {
+@media (max-width:425px) {
   #testimonial-section > h1 {
     font-size: 1.5rem;
   }

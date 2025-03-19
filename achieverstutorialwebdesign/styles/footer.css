@@ -15,7 +15,7 @@
  padding-bottom: 10px;
  background-color: #205373;
  color: white;
- margin-top: 20px;
+ margin-top: 40px;
 }
 
 /*footer-first-container styling*/
@@ -108,7 +108,7 @@
 
 /*follow-box-container styling*/
 .follow-box-container {
-  width:300px;
+  max-width:300px;
   height: auto;
   display: flex;
   flex-wrap: wrap;
@@ -116,11 +116,12 @@
   align-items: start;
 /*  border:1px solid white;*/
   margin-top: 10px;
+  margin-left: 20px;
 }
 
 .follow-box-container  > h5 {
 	font-family: "Open Sans", sans-serif;
-	color:#FFF4EA
+	color:#FFF4EA;
 /*	font-size: 1rem;*/
 /*font-family: "Gill Sans", sans-serif;;*/
 }
@@ -177,7 +178,8 @@
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-style: normal;
- word-break: break-word;
+  word-break: break-word;
+  margin:8px;
 }
 
 .quick-links {
@@ -196,12 +198,14 @@
 	max-width:30px;
 	height: 30px;
 	margin: 5px;
+/*  border:1px solid blue;*/
+margin-right:12px;
 }
 /*social-img styling*/
 .social-img {
  max-width:30px;
  height: 30px;
- margin: 1px;
+ margin: 4px;
 }
 
 /*footer-second-container styling*/
@@ -226,7 +230,7 @@
 
 
 
-@media (max-width:412px) {
+@media (max-width:425px) {
 
 	.footer-logo-container {
 		    width:100px;

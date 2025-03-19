@@ -4,7 +4,8 @@
   padding:4px;
 /*  border:1px solid blue;*/
   text-align: center;
-  margin-top: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
   background-color: #1D6BE0;
    background:linear-gradient(45deg, #00235B, #005792, #085F63);
 }
@@ -63,6 +64,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding:8px;
 }
 
 .admission-criteria-container > h1 {
@@ -74,17 +76,21 @@
    font-weight: 600;
    text-align: center;
    padding: 8px;
+   margin-top: 40px;
 }
 
 
 .apply-criteria-lists-container {
-  max-width:600px;
-  height: 400px;
-  border-bottom:1px solid #074799;
-  padding: 8px;
+  width:100%;
+  height: auto;
+/*  border-bottom:1px solid #074799;*/
+/*border:1px solid blue;*/
+  padding: 16px;
   background-color: #F7F6BB;
   margin:8px;
+  text-align: justify-all;
 }
+
 
 .apply-criteria-lists-container > ul > li {
   list-style-type: none;
@@ -109,8 +115,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 0px;
   padding: 8px;
+/*  border:1px solid blue;*/
 }
 
 .admission-steps-container > h1 {
@@ -125,13 +132,19 @@
 }
 
 .admission-process-lists-container {
-  max-width:600px;
+  width:100%;
   height: auto;
-  border-top:1px solid #074799;
+/*  border-top:1px solid #074799;*/
+/*  border:1px solid blue;*/
   padding: 8px;
   background-color: #FDF7F4;
   margin-top: 12px;
   margin:8px;
+}
+
+.admission-process-lists-container > ul {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .admission-process-lists-container > ul > li {
@@ -142,6 +155,7 @@
   font-weight: 300;
   font-style: normal;
   color:#1E3E62;
+  margin:8px;
 }
 
 
@@ -153,24 +167,49 @@
 
 
 
+@media (max-width:425px) {
+
+  #admission-section {
+    max-width:100%;
+    height: auto;
+    padding:2px;
+  }
 
 
+  #admission-section > h1 {
+    font-size: 1.5rem;
+  }
 
-
-@media (max-width:412px) {
-	#admission-section > h1 {
-		font-size: 1.5rem;
-	}
+  .admission-section-container > h1 {
+    font-size: 1.5rem;
+  }
 
   .admission-section-container > h3 {
     font-size: 1.2rem;
   }
 
+
+  .admission-section-container > h3 {
+    font-size: 1.2rem;
+  }
+
+  .admission-criteria-container > h1 {
+     font-size: 1.5rem;
+  }
+
+    .apply-criteria-lists-container > ul > li {
+       font-size: 1.2rem;
+    }
+
+    .admission-steps-container > h1 {
+      font-size: 1.5rem;
+    }
+
   .admission-process-lists-container > ul > li {
-    font-size: 1.4rem;
+    font-size: 1rem;
   }
 
   .apply-criteria-lists-container > ul > li {
-    font-size: 1.4rem;
+    font-size: 1rem;
   }
 }

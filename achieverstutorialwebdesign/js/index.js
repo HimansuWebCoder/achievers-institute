@@ -6,14 +6,23 @@ const menus = document.querySelector(".menus");
 
 menuBtn.addEventListener("click", () => {
    menusItems.style.display = "block";
-   menus.style.display = "none"
+   menuBtn.style.visibility = "hidden";
    console.log("hello")
 })
 
+console.log(menusItems); // Check if it's null
+console.log(menus);      // Check if it's null
+
+
 closeMenu.addEventListener("click", () => {
    menusItems.style.display = "none";
-   menus.style.display = "block"
+   menuBtn.style.visibility = "visible";
+   // menus.style.display = "block"
 })
+
+
+
+
 
 document.querySelectorAll('.faq-question').forEach(item => {
             item.addEventListener('click', () => {
@@ -92,11 +101,11 @@ document.querySelectorAll('.faq-question').forEach(item => {
         });
 
 
-          setInterval(() => {
-              if (i < img.length - 1) {
-                i++;
-            } else {
-              i = 0;
-            }
-            imgSlideContainer.style.transform = `translateX(${-i * 300}px)`;
-          }, 3000)
+          // setInterval(() => {
+          //     if (i < img.length - 1) {
+          //       i++;
+          //   } else {
+          //     i = 0;
+          //   }
+          //   imgSlideContainer.style.transform = `translateX(${-i * 300}px)`;
+          // }, 3000)

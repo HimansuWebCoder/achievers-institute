@@ -4,7 +4,8 @@
   padding:4px;
 /*  border:1px solid blue;*/
   text-align: center;
-  margin-top: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
   background-color: #1D6BE0;
    background:linear-gradient(45deg, #00235B, #005792, #085F63);
 }
@@ -22,12 +23,12 @@
 .about-content-container {
   width:100%;
   height: auto;
-/*  border:5px solid blue;*/
+/*  border:1px solid blue;*/
   display: flex;
   flex-direction: column;
 /*  justify-content: center;*/
   align-items: center;
-  margin-top: 20px;
+  margin-top: 24px;
 }
 
 .about-content-sub-containers {
@@ -41,9 +42,9 @@
   align-items: center;
   align-content: center;
 /*  text-align: center;*/
-  margin-top:16px;
+  margin-bottom:40px;
   box-shadow: 0.3px 0.3px 0.2px 0.5px black;
-  padding: 8px;
+  padding: 16px;
 }
 
 .checkbox {
@@ -68,13 +69,21 @@
  background-color: #F8F3D4;
 }
 
+.about-contents {
+  width:800px;
+  height: auto;
+/*  border:1px solid blue;*/
+}
+
+
 .about-contents > h1 {
 /*  color:#3C486B;*/
 /*  color:#293462;*/
   color:#333C83;
   color:#364F6B;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   margin-bottom: 20px;
+  text-align:center;
    /*font-family: "Montserrat", sans-serif;
    font-weight: 600;
    font-style: normal;*/
@@ -88,28 +97,27 @@
   font-family: "Poppins", sans-serif;
    font-weight: 300;
    font-style: normal;
+   text-align: justify-all;
 }
 
 .about-contents > ul > li {
-  list-style-type: none;
-  font-size: 1.5rem;
-  margin-bottom: 16px;
+   list-style-type: none;
+   font-size: 1.5rem;
+   margin-bottom: 16px;
    font-family: "Poppins", sans-serif;
    font-weight: 300;
    font-style: normal;
+   text-align: justify-all;
 }
 
-.about-contents {
-	width:50%;
-	height: auto;
-/*	border:1px solid blue;*/
-}
 
 
 .about-photos-container {
 	width:300px;
 	height: auto;
 /*	border:1px solid red;*/
+  margin-top: 8px ;
+  margin-bottom: 8px;
 }
 
 .about-photos-container > .about-photos {
@@ -126,7 +134,17 @@
 }
 
 
-@media (max-width:412px) {
+@media (max-width:425px) {
+
+    #about-section {
+    max-width:100%;
+    height: auto;
+    padding:2px;
+  }
+
+  #about-section h1 {
+    font-size: 1.5rem;
+  }
 
    .about-contents > h1 {
 /*  color:#3C486B;*/
@@ -146,8 +164,5 @@
   font-size: 1rem;
 }
 
-#about-section h1  {
-  font-size: 1.8rem;
-}
 
 }

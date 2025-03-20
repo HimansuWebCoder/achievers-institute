@@ -81,8 +81,17 @@
     margin-bottom: 1rem;
 }
 
+#card-content {
+    width:100%;
+    height: auto;
+/*    border:1px solid black;*/
+}
+
 
 .card-item{
+    width:100%;
+    height: auto;
+/*    border:1px solid blue;*/
     padding: 1rem 0;
 }
 
@@ -119,6 +128,7 @@
     max-height: 0;
     overflow: hidden;
     transition: max-height 200ms ease;
+    margin-top: 12px;
 }
 
 

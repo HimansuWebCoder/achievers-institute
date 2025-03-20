@@ -72,8 +72,66 @@
         }
 
 
+#card{
+    margin: auto;
+    background-color: white;
+    padding: 1.5rem;
+    max-width: 60%;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+
+.card-item{
+    padding: 1rem 0;
+}
+
+.card-item:not(:last-child){
+    border-bottom: solid 2px hsl(275, 100%, 97%);
+}
+
+.card-item-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: hsl(292, 42%, 14%);
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    text-align: left;
+}
+
+.icons > img{
+    min-width: 30px;
+}
+
+.minus-icon{
+    display: none;
+}
+
+.card-item-description{
+    font-size: 1.4rem;
+    color: hsl(292, 16%, 49%);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 200ms ease;
+}
+
+
 
       @media (max-width: 425px) {
+
+        .card-item-btn{
+              font-size: 1.4rem;
+         }
+
+        .card-item-description{
+            font-size: 1rem;
+        }
 
         #faq-section {
           max-width:100%;

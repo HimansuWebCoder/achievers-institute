@@ -50,6 +50,7 @@
 .checkbox {
   width:15px;
   height: 15px;
+  margin:4px;
 }
 
 .first-about-sub-container {
@@ -108,6 +109,10 @@
    font-weight: 300;
    font-style: normal;
    text-align: justify-all;
+   margin:16px;
+   display: flex;
+   align-content: flex-start;
+   align-items: flex-start;
 }
 
 

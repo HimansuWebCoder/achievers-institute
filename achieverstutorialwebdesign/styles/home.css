@@ -106,12 +106,28 @@
   font-style: normal;
   text-shadow: 1px 1px 1px black;
   box-shadow: 1px 1px 1px 0.4px black;
+  animation:cta-btn-popup 0.6s infinite  alternate-reverse;
 }
 
 #cta-btn2 > a {
   color:white;
   text-decoration: none;
 }
+
+
+@keyframes cta-btn-popup {
+
+  from {
+    transform:rotate(-5deg);
+  }
+
+  to {
+    transform: rotate(5deg);
+    border-left-color: blue;
+
+  }
+}
+
 /*#cta-btn:hover {
   transform: scale(0.9);
 }

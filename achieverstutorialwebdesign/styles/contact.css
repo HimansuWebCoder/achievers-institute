@@ -41,7 +41,7 @@
   height: auto;
 /*  border:1px solid blue;*/
   display: flex;
-  flex-wrap: wrap;
+/*  flex-wrap: wrap;*/
   padding: 4px;
 /*  margin:20px;*/
   font-family: "Montserrat", sans-serif;

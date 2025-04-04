@@ -12,6 +12,6 @@ html, body {
 }
 
 .box {
-    opacity: 0;  /* Initially hidden */
-    transform: translateY(50px); /* Start slightly lower */
+/*    opacity: 0;  /* Initially hidden */*/
+/*    transform: translateY(50px); /* Start slightly lower */*/
 }

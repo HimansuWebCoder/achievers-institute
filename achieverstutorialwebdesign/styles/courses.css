@@ -50,13 +50,24 @@
     justify-content: space-around;
 }
 
-.course-sub-container {
+/*.course-sub-container {
 	width:100%;
     height: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}*/
+
+
+.course-sub-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 16px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
 }
+
 
 .course-subject-container {
     width:150px;
@@ -120,12 +131,21 @@
 .programs-container {
   width:100%;
   height: auto;
-  background-color: lightcoral;
-  background-color: #61A3BA;
+/*  background-color: lightcoral;*/
+/*  background-color: #61A3BA;*/
   display: flex;
   justify-content: center;
   padding: 4px;
 /*  border:1px solid yellow;*/
+}
+
+.programs-container {
+  width: 80%;
+  background-color: #61A3BA;
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+  margin:auto;
 }
 
 .programs-checkbox-icons {
@@ -134,12 +154,24 @@
   margin:4px;
 }
 
-.programs-container > ul {
+/*.programs-container > ul {
   display: flex;
   flex-wrap: wrap;
+}*/
+
+.programs-container > ul {
+  display: grid;
+/*    background-color: #61A3BA;*/
+  grid-template-columns: repeat(auto-fit, minmax(clamp(250px, 40%, 420px), 1fr));
+/*  gap: 5px;*/
+  width: 100%;
+  max-width: 900px;
+  padding: 0;
+  margin: 0;
 }
 
 .programs-container > ul > li {
+  width:auto;
 	margin:12px;
 	list-style-type: none;
 	background-color: #FFFBE6;
@@ -152,35 +184,45 @@
   font-size: 1.5rem;
   display: flex;
   align-items: center;
+  word-break: break-word;
 }
 
 
+@media (max-width: 425px) {
 
-@media (max-width:425px) {
-
-  #course-section {
-    max-width:100%;
-    height: auto;
-    padding:2px;
-  }
-
-	#course-section > h1 {
-		font-size: 1.5rem;
-	}
-
-  .course-intro  h3 {
-    font-size: 1.4rem;
-  }
-
-  .programs-intro h3 {
+  #course-section > h1 {
     font-size: 1.5rem;
   }
 
-  .programs-container > ul {
-    display: block;
+
+  .course-sub-container {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 12px;
   }
 
-  .programs-container > ul > li {
-    font-size: 1rem;
+  .programs-container > ul {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+
+  .course-icons {
+    width: 70px;
+    height: 70px;
+  }
+
+ .programs-container > ul > li {
+   font-size: 1rem;
+  }
+
+
+  .course-subject-container {
+    width: auto;
+    height: auto;
+    padding: 12px;
+  }
+}
+
+@media (max-width:300px) {
+   .programs-container > ul {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   }
 }

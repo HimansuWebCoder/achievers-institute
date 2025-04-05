@@ -200,27 +200,27 @@
                     <div class="course-content-container">
                             <div class="course-sub-container">
                         <div class="course-subject-container box">
-                            <image class="course-icons" src="images/calculating.png" alt="math-logo" />
+                            <img class="course-icons" src="images/calculating.png" alt="math-logo" />
                             <h3>Math</h3>
                         </div>
                         <div class="course-subject-container box">
-                            <image class="course-icons" src="images/science.png" alt="science-logo" />
+                            <img class="course-icons" src="images/science.png" alt="science-logo" />
                             <h3>Science</h3>
                         </div>
                         <div class="course-subject-container box">
-                            <image class="course-icons" src="images/notebook.png" alt="social-studies-logo" />
+                            <img class="course-icons" src="images/notebook.png" alt="social-studies-logo" />
                             <h3>Social Studies</h3>
                         </div>
                         <div class="course-subject-container box">
-                            <image class="course-icons" src="images/computer.svg" alt="computer-logo" />
+                            <img class="course-icons" src="images/computer.svg" alt="computer-logo" />
                             <h3>Computer</h3>
                         </div>
                         <div class="course-subject-container box">
-                            <image class="course-icons" src="images/english.svg" alt="english-logo" />
+                            <img class="course-icons" src="images/english.svg" alt="english-logo" />
                             <h3>English</h3>
                         </div>
                         <div class="course-subject-container box">
-                            <image class="course-icons" src="images/hindi2.svg" alt="hindi-logo" />
+                            <img class="course-icons" src="images/hindi2.svg" alt="hindi-logo" />
                             <h3>Hindi</h3>
                         </div>
                             </div>
@@ -710,13 +710,31 @@
       <div class="footer-second-container">
           <p>Copyright <span id="copyright-sign">©</span> 2025 <b>Achievers Institute</b> | Designed & Developed by <a id="developedby" href="https://himansuwebsolutions.vercel.app">Himansuwebsolutions</a></p>
       </div>
+      <div id="modal-image-container">
+          <div class="modal-close-btn-container">
+              <button class="modal-img-close-btn">X</button>
+          </div>
+          <div class="modal-image-box">
+              <img src="" />
+          </div>
+      </div>
    </footer>
    <!-- Footer Section End -->
      <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script> -->
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script> -->
    <!-- <script src="js/gsapanimation.js"></script> -->
-   <script src="js/index.js"></script>
+   <!-- <script src="js/index.js"></script> -->
    <script src="js/feedback.js"></script>
    <script src="js/gallery.js"></script>
+   <script>
+       const images = document.querySelectorAll(".image-slides");
+       console.log(images);
+
+       images.forEach((x) => {
+        x.addEventListener("click", (e) => {
+            console.log(e.target);
+        })
+       })
+   </script>
 </body>
 </html>

@@ -195,6 +195,11 @@
   }
 
 
+  .programs-container {
+    width:100%;
+  }
+
+
   .course-sub-container {
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     gap: 12px;

@@ -12,8 +12,8 @@
 }
 
 #course-section > h1 {
-	font-size: 2.5rem;
-	color:white;
+  font-size: 2.5rem;
+  color:white;
     font-family: "Montserrat", sans-serif;
    font-weight: 600;
    font-style: normal;
@@ -51,7 +51,7 @@
 }
 
 /*.course-sub-container {
-	width:100%;
+  width:100%;
     height: auto;
     display: flex;
     flex-wrap: wrap;
@@ -83,10 +83,10 @@
 }
 
 .course-subject-container > h3 {
-	margin-top: 16px;
-/*	color:white;*/
+  margin-top: 16px;
+/*  color:white;*/
     padding: 2px;
-	background-color: #F5F0CD;
+  background-color: #F5F0CD;
     font-family: "Poppins", sans-serif;
    font-weight: 400;
    font-style: normal;
@@ -99,8 +99,8 @@
 }
 
 .course-icons {
-	width:100px;
-	height:100px;
+  width:100px;
+  height:100px;
 }
 
 .programs-intro {
@@ -119,11 +119,11 @@
 }
 
 .programs-content-container {
-	width:100%;
-	height: auto;
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
+  width:100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 /*  border:1px solid red;*/
   margin-top: 40px;
 }
@@ -172,12 +172,12 @@
 
 .programs-container > ul > li {
   width:auto;
-	margin:12px;
-	list-style-type: none;
-	background-color: #FFFBE6;
-	padding: 8px;
-	border-radius: 4px;
-	color:#1E3E62;
+  margin:12px;
+  list-style-type: none;
+  background-color: #FFFBE6;
+  padding: 8px;
+  border-radius: 4px;
+  color:#1E3E62;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;

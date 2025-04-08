@@ -79,12 +79,12 @@ background-color: #F2F9FF;
 
 .navitem-container > li > a:hover {
 	color:white;
-	background-color:#7EACB5 ;
+	background-color:#19A7CE ;
 }
 
 .navitem-container > li > a:active {
-	color:#4793AF;
-	background-color:#FFF4EA ;
+	color:white;
+	background-color:#146C94 ;
 }
 
 

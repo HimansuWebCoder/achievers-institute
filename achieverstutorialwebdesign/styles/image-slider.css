@@ -28,6 +28,7 @@
                max-width:100%;
                border:1px solid white;
                height: 50%;
+               object-fit: cover;
            }
 
            .img-slider-btn {
@@ -106,9 +107,10 @@
               padding-bottom: 100px;
           }
 
-          #modal-div-image {
+          /*#modal-div-image {
                max-width:900px;
                height:600px;
+               position:relative;
              box-shadow: 1px 1px 30px 0.3px black;
              border:1px solid white;
              display: flex;
@@ -121,7 +123,31 @@
           #modal-div-image > img {
                width: 100%;
                height: 100%;
-          }
+               object-fit: cover;
+               object-position: center;
+          }*/
+
+                  #modal-div-image {
+          max-width: 900px;
+          height: 600px;
+          position: relative;
+          box-shadow: 1px 1px 30px 0.3px black;
+          border: 1px solid white;
+          display: flex;
+          justify-content: center;
+          margin: 0;
+          margin-top: 20px;
+          overflow: hidden; /* Hide overflow */
+        }
+
+        #modal-div-image > img {
+          width: 100%;
+          height: 100%;
+/*          object-fit: contain;*/
+          object-fit: cover;
+          object-position: center; /* Center the image */
+        }
+
 
           .modal-btn-container {
                width:100%;

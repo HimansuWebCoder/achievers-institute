@@ -8,10 +8,21 @@
 html, body {
   width: 100%;
   height: 100%;
-  background-color: #F9F9F9;
+/*  background-color: #F9F9F9;*/
+}
+
+html {
+  min-height: 100%;
+  background-image: url('/images/noise4.png');
+  background-repeat: repeat;
+  background-position: center;
+  background-size: auto;
+  position: relative;
 }
 
 .box {
 /*    opacity: 0;  /* Initially hidden */*/
 /*    transform: translateY(50px); /* Start slightly lower */*/
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');

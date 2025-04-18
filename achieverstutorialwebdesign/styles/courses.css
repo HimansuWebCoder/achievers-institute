@@ -135,12 +135,12 @@
 /*  background-color: #61A3BA;*/
   display: flex;
   justify-content: center;
-  padding: 4px;
+/*  padding: 4px;*/
 /*  border:1px solid yellow;*/
 }
 
 .programs-container {
-  width: 80%;
+  width: 75%;
   background-color: #61A3BA;
   display: flex;
   justify-content: center;

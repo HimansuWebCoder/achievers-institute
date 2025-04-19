@@ -1,23 +1,18 @@
-# 💄 Silisalon – Makeup Beauty Salon (Frontend Freelance Project)
+# 💄 Achievers Institute - An Educational Institute Website (Frontend Freelance Project)
 
-A modern, responsive, and elegant beauty salon website built with the latest frontend technologies. This project showcases my attention to detail, UI/UX design sense, and frontend engineering skills using **React**, **Tailwind CSS v4**, **Lucide Icons**, and **MUI Components**.
+A modern, responsive, and elegant educational website built with the latest frontend technologies. This project showcases my attention to detail, UI/UX design sense, and frontend engineering skills using pure **Html**, **CSS** and **Javascript** skills.
 
 ---
 
 ## 🚀 Tech Stack
 
-- **Frontend Framework**: [React](https://react.dev/) (with [Vite](https://vitejs.dev/))
-- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
-- **Icons**: [Lucide-react](https://lucide.dev/)
-- **UI Components**: [Material UI (MUI)](https://mui.com/)
-- **Animations**: CSS transitions & Tailwind utility classes
-- **SVGs**: Inline SVGs used for better performance
+- **Frontend**: [React] [Css] [Javascript] (https://developer.mozilla.org/en-US/docs/Web/HTML) (https://developer.mozilla.org/en-US/docs/Web/CSS) and (https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 ---
 
 ## 🚀 Live Demo
 
-<a href="https://www.silisalon.com/" target="_blank" rel="noopener noreferrer">Live Preview</a>
+<a href="http://achievers-institute.vercel.app/" target="_blank" rel="noopener noreferrer">Live Preview</a>
 
 
 ---
@@ -26,14 +21,11 @@ A modern, responsive, and elegant beauty salon website built with the latest fro
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/silisalon.git
-cd silisalon
-
-# Install dependencies
-npm install
+git https://github.com/HimansuWebCoder/achievers-institute.git
+cd achievers-institute
 
 # Start development server
-npm run dev
+  live-server
 ```
 
 ## ✨ Features
@@ -48,18 +40,10 @@ npm run dev
 
 * Clean, polished UI by removing unnecessary decorative images and clutter
 
-* Modular, reusable React components
-
 
 ## 🧩 Challenges Faced
 
-- Navbar scroll offset: Clicking nav links used to land slightly below the actual section due to sticky header. Fixed using: scroll-mt-<value>
-
-```
-<section id="services" className="scroll-mt-28">...</section>
-```
-
-- Spacing and layout: Balancing padding, margin, and whitespace was tricky. Used Tailwind’s spacing scale carefully to maintain visual styles.
+- Spacing and layout: Balancing padding, margin, and whitespace was tricky.
 
 ## 🖼️ Performance
 
@@ -73,21 +57,11 @@ npm run dev
 ## 📁 Folder Structure
 
 ```
-silisalon/
-├── public/
-│   └── images/            # Static images and icons
-│
-├── src/
-│   ├── assets/            # Fonts, global styles, logos, etc.
-│   ├── components/        # All reusable React components (Navbar, Hero, Services, etc.)
-│   ├── App.css            # App-level styles (if used with Tailwind overrides)
-│   ├── App.jsx            # Main App component
-│   ├── index.css          # Global styles (Tailwind directives, resets, etc.)
-│   └── main.jsx           # Entry point for React
-│
-├── index.html             # Base HTML file
-├── tailwind.config.js     # Tailwind CSS configuration
-└── vite.config.js         # Vite configuration
+achievers-institute/
+├── images/      # all images 
+├── js/          # all js files
+├── styles/      # all css styles       
+├── index.html     # Base HTML file
 
 ```
 
@@ -97,16 +71,7 @@ Your Name – @HimansuWebCoder
 
 ## 🧠 Why I Built This
 
-This project was developed as a freelance assignment for a beauty salon client. It helped me sharpen my frontend workflow, master layout and spacing techniques, and deliver a clean, performance-optimized user interface. The project reflects my ability to translate real-world client needs into a polished, responsive React application.
-
-
-## ✅ What’s Next?
-
-* Add form validation and email integration with EmailJS or Formspree
-
-* Animate section reveals using Framer Motion
-
-* Add SVG more powerfull effect with animation and transitions
+This project was developed as a freelance assignment for an educational institute client. It helped me sharpen my frontend workflow, master layout and spacing techniques, and deliver a clean, performance-optimized user interface. The project reflects my ability to translate real-world client needs into a polished, responsive Core Stack (Html, Css, Js) application.
 
 
 ## 🙌 Open to Feedback

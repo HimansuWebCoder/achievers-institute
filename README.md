@@ -1,4 +1,4 @@
-# 💄 Achievers Institute - An Educational Institute Website (Frontend Freelance Project)
+# 🎓 Achievers Institute - An Educational Institute Website (Frontend Freelance Project)
 
 A modern, responsive, and elegant educational website built with the latest frontend technologies. This project showcases my attention to detail, UI/UX design sense, and frontend engineering skills using pure **Html**, **CSS** and **Javascript** skills.
 
